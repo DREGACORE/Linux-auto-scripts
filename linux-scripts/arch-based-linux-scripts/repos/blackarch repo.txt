@@ -1,0 +1,170 @@
+#Iran
+Server = https://blackarch.mirror.iranhost.com/blackarch/$repo/os/$arch
+
+
+#Turkey Turkey
+Server = http://ftp.linux.org.tr/blackarch/
+Server = ftp://ftp.linux.org.tr/blackarch/
+Server = rsync://rsync.linux.org.tr/blackarch/
+
+#United StatesUnited States
+Server = https://us.mirrors.fossho.st/blackarch/
+Server = http://mirror.math.princeton.edu/pub/blackarch/
+Server = https://mirror.math.princeton.edu/pub/blackarch/
+Server = rsync://mirror.math.princeton.edu/pub/blackarch/
+Server = http://distro.ibiblio.org/blackarch/
+Server = ftp://distro.ibiblio.org/blackarch/
+Server = https://mirror.team-cymru.com/blackarch/
+Server = ftp://mirror.team-cymru.com/blackarch/
+Server = rsync://mirror.team-cymru.com/blackarch/
+
+#Great Britain Great Britain
+Server = http://mirrors.cicku.me/blackarch/
+Server = https://mirrors.cicku.me/blackarch/
+Server = http://www.mirrorservice.org/sites/blackarch.org/blackarch/
+Server = rsync://rsync.mirrorservice.org/blackarch.org/blackarch/
+Server = http://mirrors.gethosted.online/blackarch/blackarch/
+Server = https://mirrors.gethosted.online/blackarch/blackarch/
+
+#Russia Russia
+Server = https://repository.su/blackarch/
+Server = rsync://repository.su/blackarch/
+Server = http://mirror.yandex.ru/mirrors/blackarch/
+Server = ftp://mirror.yandex.ru/mirrors/blackarch/
+Server = rsync://mirror.yandex.ru/mirrors/blackarch/
+
+#australia
+Server = http://au.mirrors.cicku.me/blackarch/
+Server = https://au.mirrors.cicku.me/blackarch/
+Server = http://blackarch.mirror.digitalpacific.com.au/
+Server = rsync://mirror.digitalpacific.com.au/blackarch/
+
+#Austria Austria
+Server = http://mirror.easyname.at/blackarch/
+Server = ftp://mirror.easyname.at/blackarch/
+Server = rsync://mirror.easyname.at/blackarch/
+
+#Canada Canada
+Server = http://ca.mirrors.cicku.me/blackarch/
+Server = https://ca.mirrors.cicku.me/blackarch/
+
+#China China
+Server = https://mirrors.hust.edu.cn/blackarch/
+Server = https://mirrors.nju.edu.cn/blackarch/
+Server = https://mirror.sjtu.edu.cn/blackarch/
+Server = https://mirrors.tuna.tsinghua.edu.cn/blackarch/
+Server = https://mirrors.ustc.edu.cn/blackarch/
+Server = https://mirrors.aliyun.com/blackarch/
+Server = http://mirrors.aliyun.com/blackarch/
+
+#Denmark Denmark
+Server = http://mirrors.dotsrc.org/blackarch/
+Server = ftp://mirrors.dotsrc.org/blackarch/
+
+#Ecuador Ecuador
+Server = http://mirror.cedia.org.ec/blackarch/
+
+#France France
+Server = http://blackarch.leneveu.fr/blackarch/
+Server = http://mirror.cyberbits.eu/blackarch/
+Server = https://mirror.cyberbits.eu/blackarch/
+Server = rsync://rsync.cyberbits.eu/blackarch/
+
+#Germany Germany
+Server = https://www.blackarch.org/blackarch/blackarch/
+Server = rsync://blackarch.org/blackarch/
+Server = http://de.mirrors.cicku.me/blackarch/
+Server = https://de.mirrors.cicku.me/blackarch/
+Server = http://ftp.halifax.rwth-aachen.de/blackarch/
+Server = https://ftp.halifax.rwth-aachen.de/blackarch/
+Server = ftp://ftp.halifax.rwth-aachen.de/blackarch/
+Server = rsync://ftp.halifax.rwth-aachen.de/blackarch/
+Server = http://blackarch.unixpeople.org/
+Server = https://blackarch.unixpeople.org/
+Server = rsync://blackarch.unixpeople.org/blackarch/
+
+#Greece Greece
+Server = http://ftp.cc.uoc.gr/mirrors/linux/blackarch/
+Server = ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/
+Server = rsync://blackarch@cc.uoc.gr/blackarch
+
+
+
+#Hungary Hungary
+Server = http://quantum-mirror.hu/mirrors/pub/blackarch/
+Server = https://quantum-mirror.hu/mirrors/pub/blackarch/
+Server = rsync://quantum-mirror.hu/blackarch
+
+#India India
+Server = http://in.mirrors.cicku.me/blackarch/
+Server = https://in.mirrors.cicku.me/blackarch/
+Server = https://mirror.maa.albony.in/blackarch/
+
+#Italy Italy
+Server = http://blackarch.mirror.garr.it/mirrors/blackarch/
+Server = rsync://blackarch.mirror.garr.it/blackarch/
+
+#Japan Japan
+Server = http://jp.mirrors.cicku.me/blackarch/
+Server = https://jp.mirrors.cicku.me/blackarch/
+Server = http://www.ftp.ne.jp/Linux/packages/blackarch/
+Server = http://ftp.kddilabs.jp/Linux/packages/blackarch/
+Server = https://ftp.kddilabs.jp/Linux/packages/blackarch/
+
+#South Korea South Korea
+Server = http://kr.mirrors.cicku.me/blackarch/
+Server = https://kr.mirrors.cicku.me/blackarch/
+
+#Moldova Moldova
+Server = http://md.mirrors.hacktegic.com/blackarch/
+Server = https://md.mirrors.hacktegic.com/blackarch/
+Server = rsync://md.mirrors.hacktegic.com/blackarch/
+
+#Netherlands Netherlands
+Server = http://mirror.serverion.com/blackarch/
+Server = https://mirror.serverion.com/blackarch/
+Server = ftp://mirror.serverion.com/blackarch/
+Server = rsync://mirror.serverion.com/opnsense
+
+#Poland Poland
+Server = http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/
+Server = ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/
+Server = rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/
+Server = gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/
+
+#Portugal Portugal
+Server = http://eu.mirrors.cicku.me/blackarch/
+Server = https://eu.mirrors.cicku.me/blackarch/
+
+#Romania Romania
+Server = http://mirrors.hostico.ro/blackarch/
+Server = https://mirrors.hostico.ro/blackarch/
+
+#Singapore Singapore
+Server = http://sg.mirrors.cicku.me/blackarch/
+Server = https://sg.mirrors.cicku.me/blackarch/
+Server = http://download.nus.edu.sg/mirror/blackarch/
+Server = https://download.nus.edu.sg/mirror/blackarch/
+
+#Sweden Sweden
+Server = http://mirror.zetup.net/blackarch/
+
+#Switzerland Switzerland
+Server = http://mirror.easyname.ch/blackarch/
+Server = ftp://mirror.easyname.ch/blackarch/
+Server = rsync://mirror.easyname.ch/blackarch/
+Server = https://mirror.tillo.ch/ftp/blackarch/
+Server = http://mirror.tillo.ch/ftp/blackarch/
+Server = ftpes://mirror.tillo.ch/blackarch/
+Server = ftp://mirror.tillo.ch/blackarch/
+Server = rsync://mirror.tillo.ch/blackarch/
+
+
+
+#Taiwan Taiwan
+Server = http://mirror.archlinux.tw/BlackArch/
+Server = https://mirror.archlinux.tw/BlackArch/
+Server = http://blackarch.cs.nycu.edu.tw/
+Server = https://blackarch.cs.nycu.edu.tw/
+Server = rsync://blackarch.cs.nycu.edu.tw/blackarch/
+

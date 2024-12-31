@@ -1,0 +1,7 @@
+chmod +x kde_arch.sh arch_apps.sh blackarch1.sh blackarch2.sh &&
+./kde_arch.sh &&
+./arch_apps.sh &&
+./blackarch1.sh &&
+./blackarch2.sh &&
+
+sudo reboot

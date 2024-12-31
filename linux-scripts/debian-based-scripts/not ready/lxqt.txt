@@ -1,0 +1,9 @@
+sudo apt install xorg &&
+
+sudo nala install -y --install-recommends --install-suggests lubuntu-desktop lxqt lxqt-core &&
+
+sudo apt install sddm &&
+sudo systemctl enable sddm &&
+
+sudo apt install openbox &&
+

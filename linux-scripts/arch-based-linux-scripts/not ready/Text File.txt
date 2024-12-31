@@ -1,0 +1,55 @@
+##Shell and Command-Line Utilities
+
+sudo pacman -S --noconfirm bash bash-completion bash-preexec fish &&
+sudo pacman -S --noconfirm sed fzf htop btop tree ncdu man-db mc git wget curl rsync tmux screen terminator alacritty tilix guake nix iotop iftop net-tools toolbox konsole xterm gnome-terminal qmlkonsole gnome-system-monitor glances gparted baobab drkonqi libksysguard gnome-todo evolution okular pdfarranger gnome-disk-utility &&
+
+##Programming Languages and Development Tools
+
+sudo pacman -S --noconfirm python perl ruby dart rust go tinygo gcc make cmake nodejs cargo &&
+sudo pacman -S --noconfirm vim neovim vim-plugins archlinux-tools arduino linux-tools python-virtualenv python-dist-meta python-importlib-metadata python-pyproject-metadata bpython bandit fabric ipython jupyter-console jupyter-nbformat jupyter-notebook-shim mypy pyenv pyright python-build-backend python-pip ansible puppet logwatch &&
+
+##Databases
+sudo pacman -S --noconfirm postgresql sqlite mysql &&
+
+
+##Web Servers
+sudo pacman -S --noconfirm apache nginx lighttpd &&
+
+##KDE Applications
+sudo pacman -S --noconfirm angelfish bluedevil calindori discover flatpak-kcm layer-shell-qt libkscreen libplasma milou &&
+
+##Multimedia Applications
+sudo pacman -S --noconfirm vlc mpv smplayer audacious rhythmbox audacity hydrogen lmms gthumb obs-studio &&
+
+##Internet and Networking
+sudo pacman -S --noconfirm chromium qbittorrent filezilla openvpn nmap clamav firewalld iptables gnupg &&
+
+##Productivity and Office Applications
+sudo pacman -S --noconfirm libreoffice kmymoney homebank gnucash &&
+
+##Game and Entertainment
+sudo pacman -S --noconfirm supertuxkart retroarch lutris &&
+
+##Design Tools
+sudo pacman -S --noconfirm openscad blender gimp krita eog &&
+
+##File Management
+sudo pacman -S --noconfirm ranger file-roller pcmanfm dolphin nautilus &&
+
+##Themes
+sudo pacman -S --noconfirm papirus-icon-theme ocean-sound-theme oxygen oxygen-sounds materia-kde breeze breeze-gtk breeze-plymouth breeze &&
+
+##System Utilities and Monitoring
+sudo pacman -S --noconfirm reflector timeshift lvm2 virtualbox lxc prometheus &&
+
+##Backup and Sync Tools
+sudo pacman -S --noconfirm borgbackup syncthing duplicity deja-dup
+
+
+----
+
+
+
+
+
+-----

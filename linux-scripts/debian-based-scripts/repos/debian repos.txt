@@ -1,0 +1,22 @@
+deb http://archive.debian.petiak.ir/debian/ bookworm main contrib
+deb-src http://archive.debian.petiak.ir/debian/ bookworm main contrib
+deb http://security.debian.org/ stable/updates main contrib
+deb http://mirrors.asnet.am/debian/ bookworm main contrib non-free
+deb http://mirror.i3d.net/debian/ bookworm main contrib non-free
+deb http://debian.ipacct.com/debian/ bookworm main contrib non-free
+deb http://artfiles.org/debian/ bookworm main contrib non-free
+deb http://ftp.hosteurope.de/mirror/ftp.debian.org/debian/ bookworm main contrib non-free
+deb http://mirrors.nxthost.com/debian/ bookworm main contrib non-free
+deb http://mirror.23m.com/debian/ bookworm main contrib non-free
+deb http://mirror.alwyzon.net/debian/ bookworm main contrib non-free
+
+deb http://archive.debian.petiak.ir/debian/ bookworm main contrib non-free
+deb http://mirror.aminidc.com/debian/ bookworm main contrib non-free
+deb http://mirror.iranserver.com/debian/ bookworm main contrib non-free
+deb http://mirrors.pardisco.co/debian/ bookworm main contrib non-free
+deb http://ftp.au.debian.org/debian/ bookworm main contrib non-free
+deb http://ftp.am.debian.org/debian/ bookworm main contrib non-free
+deb http://ftp.ru.debian.org/debian/ bookworm main contrib non-free
+deb http://ftp.uk.debian.org/debian/ bookworm main contrib non-free
+deb http://ftp.us.debian.org/debian/ bookworm main contrib non-free
+deb http://debian.interhost.co.il/debian/ bookworm main contrib non-free

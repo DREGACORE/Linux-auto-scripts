@@ -1,0 +1,9 @@
+sudo apt install xorg &&
+
+sudo nala install -y --install-recommends --install-suggests kde-plasma-desktop kde-standard &&
+sudo nala install -y --install-recommends --install-suggests kde-full &&
+
+sudo apt install sddm &&
+sudo systemctl enable sddm &&
+
+sudo nala install -y  gnome-software okular thunderbird korganizer calligra zim pdfarranger playonlinux libreoffice taskwarrior gnome-todo python3-full rustc cargo python3-pip python3-venv python3-django python3-flask jupyter git git-cola build-essential lxc audacious mpv clementine rhythmbox audacity smplayer kdenlive freecad gthumb blender vlc obs-studio krita openscad eog gimp filezilla lsb-release netdata glances iftop iotop btop htop logwatch ranger tree ncdu deja-dup timeshift duplicity borgbackup curl wireguard wget netcat-openbsd wireshark nmap openvpn clamav firewalld iptables gnupg slack syncthing synaptic aptitude snapd scilab maxima octave gnucash kmymoney homebank tmux tilix screen terminator alacritty kitty guake geany vim neovim education-desktop-kde kde-config-flatpak kde-full gdb-minimal busybox

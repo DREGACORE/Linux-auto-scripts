@@ -1,0 +1,26 @@
+deb https://mirror.iranserver.com/ubuntu/ noble main
+deb-src https://mirror.iranserver.com/ubuntu/ noble main
+deb https://ubuntu.mobinhost.com/ubuntu/ noble main
+deb-src https://ubuntu.mobinhost.com/ubuntu/ noble main
+deb https://ubuntu.pishgaman.net/ubuntu/ noble main
+deb-src https://ubuntu.pishgaman.net/ubuntu/ noble main
+deb https://ubuntu.tegrahost.com/ubuntu/ noble main
+deb-src https://ubuntu.tegrahost.com/ubuntu/ noble main
+deb https://ir.ubuntu.sindad.cloud/ubuntu/ noble main
+deb-src https://ir.ubuntu.sindad.cloud/ubuntu/ noble main
+deb http://archive.ubuntu.com/ubuntu/ noble main restricted
+deb http://archive.ubuntu.com/ubuntu/ noble-updates main restricted
+deb http://archive.ubuntu.com/ubuntu/ noble universe
+deb http://archive.ubuntu.com/ubuntu/ noble-update multiverse
+deb http://archive.ubuntu.com/ubuntu/ noble-backports main restricted univers multiverse
+deb http://security.ubuntu.com/ubuntu/ noble-security main restricted
+deb http://security.ubuntu.com/ubuntu/ noble-security universe
+deb http://security.ubuntu.com/ubuntu/ noble-security multiverse
+deb https://mirrors.mediascope.group/ubuntu/ noble main
+deb-src https://mirrors.mediascope.group/ubuntu/ noble main
+deb http://mirror1.sox.rs/ubuntu/ubuntu/ noble main
+deb-src http://mirror1.sox.rs/ubuntu/ubuntu/ noble main
+deb http://ossmirror.mycloud.services/os/linux/ubuntu/ noble main
+deb-src http://ossmirror.mycloud.services/os/linux/ubuntu/ noble main
+deb http://mirror.sg.gs/ubuntu/ noble main
+deb-src http://mirror.sg.gs/ubuntu/ noble main

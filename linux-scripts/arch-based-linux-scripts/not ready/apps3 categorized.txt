@@ -1,0 +1,38 @@
+
+
+sudo pacman -Syu ;
+paru -Syu ;
+trizen -Syu ;
+yay -Syu ;
+sudo pamac update;
+
+sudo pacman -S --noconfirm kde-development-environment-meta kde-education-meta kde-games-meta kde-graphics-meta kde-multimedia-meta kde-network-meta kde-office-meta kde-pim-meta kde-sdk-meta kde-system-meta kde-utilities-meta kdevelop-meta plasma-activities plasma-activities-stats plasma-applet-window-buttons plasma-browser-integration plasma-desktop plasma-disks plasma-firewall plasma-framework5 plasma-integration plasma-nm plasma-pa tesseract-data-eng kde-applications-meta rustup python-pyqt6 plasma-pass plasma-sdk plasma-systemmonitor plasma5-integration kaccounts-integration kactivitymanagerd kclock kde-cli-tools kde-gtk-config kdecoration kdeplasma-addons keysmith kgamma kglobalacceld kinfocenter kmenuedit kpipewire krdp krecorder kscreen kscreenlocker ksshaskpass ksystemstats kvantum-theme-materia kwallet-pam kwayland kweather kwin kwrited kde-accessibility-meta plasma-meta
+
+sudo pacman -S --noconfirm bash bash-completion bash-preexec fish sed fzf htop btop tree ncdu man-db mc git wget curl rsync tmux screen kitty alacritty tilix guake nix iotop iftop net-tools toolbox konsole xterm gnome-terminal gnome-system-monitor glances gparted baobab drkonqi libksysguard gnome-todo evolution okular pdfarranger gnome-disk-utility python perl ruby dart rustup go tinygo gcc make cmake nodejs cargo vim neovim vim-plugins archlinux-tools arduino linux-tools python-virtualenv python-dist-meta python-importlib-metadata python-pyproject-metadata bpython bandit fabric ipython jupyter-console jupyter-nbformat jupyter-notebook-shim mypy pyenv pyright python-build-backend python-pip ansible puppet logwatch postgresql sqlite apache nginx lighttpd angelfish bluedevil calindori discover flatpak-kcm layer-shell-qt libkscreen libplasma milou vlc mpv smplayer audacious rhythmbox audacity hydrogen lmms gthumb obs-studio chromium qbittorrent filezilla openvpn nmap clamav firewalld iptables gnupg libreoffice kmymoney homebank gnucash supertuxkart retroarch lutris openscad blender gimp krita eog ranger file-roller pcmanfm dolphin nautilus papirus-icon-theme ocean-sound-theme oxygen oxygen-sounds materia-kde breeze breeze-gtk breeze-plymouth breeze reflector timeshift lvm2 virtualbox lxc prometheus borgbackup syncthing duplicity deja-dup zig zls v2ray waveterm zed visual-studio-code-bin vscodium-marketplace vscodium zoom octopi pamac flatpak flatseal flatpak-xdg-utils flatpak-docs flatpak-builder vundle-git vim-vimwiki vim-language-server nvchad-git neovim-plug neofetch fastfetch btrfs-progs nodejs npm typescript eslint sqlite gcc make cmake aria2 uget rust-analyzer bitwarden dbeaver dbeaver-plugin-apache-poi dbeaver-plugin-batik dbeaver-plugin-office dbeaver-plugin-svg-format thunderbird-addons thunderbird tartube youtube-dl yt-dlp  youtube-music-bin spotube-bin wine wine-installer geany element-desktop telegram-desktop insomnia postman-bin drawio-desktop dbeaver firefox-developer-edition firefox zen-browser-bin vivaldi oblivion-desktop jdk nvidia-utils virtualbox-host-modules-lts crun youtube-dl-git thunderbird-dark-reader thunderbird-ublock-origin borg2 libreoffice-fresh meson-python python-flit-core python-hatchling python-maturin python-pdm-backend python-poetry-core python-setuptools brave-bin;
+
+
+
+yay -S v2ray-desktop
+
+sudo pacman -Syu ;
+paru -Syu ;
+trizen -Syu ;
+yay -Syu ;
+sudo pamac update;
+
+
+[chaotic-aur]
+Include = /etc/pacman.d/chaotic-mirrorlist
+
+
+[arch4edu]
+Server = https://mirrors.tuna.tsinghua.edu.cn/arch4edu/$arch
+
+[bioarchlinux]
+Server = https://repo.bioarchlinux.org/$arch
+
+[archlinuxir]
+SigLevel = PackageOptional
+Server = https://mirror.bardia.tech/archlinuxir/$arch
+
+

@@ -1,0 +1,27 @@
+sudo pacman -Syu;
+
+sudo pacman -S base-devel &&
+git clone https://aur.archlinux.org/paru.git &&
+cd paru &&
+makepkg -si;
+git clone https://aur.archlinux.org/trizen.git &&
+cd trizen &&
+makepkg -si;
+git clone https://aur.archlinux.org/yay.git &&
+cd yay &&
+makepkg -si;
+
+yay -S pamac snapd octopi &&
+sudo systemctl enable --now snapd.socket &&
+sudo snap install snap-store ;
+
+sudo pacman -S --noconfirm xfce4 xfce4-goodies;
+
+sudo pacman -Syu ;
+paru -Syu ;
+trizen -Syu ;
+yay -Syu ;
+sudo pamac update;
+
+
+sudo pacman -S --noconfirm dolphin baobab bash bash-completion bash-preexec konsole kitty alacritty htop glances iotop iftop netdata curl wget net-tools nmap openvpn   firewalld iptables nodejs npm yarn ruby ruby-irb rubygems go tinygo gopls rustup python gcc make cmake perl dart postgresql sqlite pamac octopi python-dist-meta python-importlib-metadata python-pyproject-metadata bpython bandit fabric ipython jupyter-console jupyter-nbformat jupyter-notebook-shim mypy pyenv pyright python-build-backend python-pip cargo logwatch puppet ansible virtualbox docker git git-extensions flatpak podman lxc vlc audacious eog thunderbird timeshift borgbackup duplicity deja-dup gparted gnome-system-monitor gnome-disk-utility lvm2 rsync tar gzip bzip2 file-roller syncthing clamav firewalld gnupg nmap openvpn stacer bleachbit jq fzf man-db info okular pdfarranger

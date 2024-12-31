@@ -1,0 +1,1 @@
+sudo apt update && sudo apt install -y nala && sudo nala install -y --install-recommends --install-suggests kitty

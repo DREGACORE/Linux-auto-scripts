@@ -1,0 +1,8 @@
+
+#Enable multilib following https://wiki.archlinux.org/index.php/Official_repositories#Enabling_multilib and run:
+
+sudo pacman -Syu&&
+sudo pacman -S --needed --overwrite='*' --noconfirm    blackarch-proxy blackarch-windows blackarch-dos blackarch-disassembler blackarch-cracker blackarch-voip blackarch-exploitation blackarch-recon blackarch-networking  blackarch-crypto blackarch-forensic blackarch-wireless blackarch-radio blackarch-fuzzer blackarch-binary blackarch-mobile blackarch-reversing blackarch-social blackarch-automation blackarch-misc blackarch-defensive blackarch-fingerprint blackarch-wordlist blackarch-decompiler blackarch-backdoor blackarch-malware blackarch-honeypot blackarch-bluetooth blackarch-code-audit blackarch-sniffer blackarch-hardware blackarch-drone blackarch-tunnel blackarch-debugger
+
+sudo pacman -S --needed --overwrite='*' blackarch-officials blackarch blackarch-scanner blackarch-spoof blackarch-webapp
+

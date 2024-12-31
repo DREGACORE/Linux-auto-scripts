@@ -1,0 +1,6 @@
+sudo pacman -Syu;
+sudo pacman -S xorg;
+sudo pacman -S --noconfirm plasma plasma-meta
+sudo pacman -S sddm &&
+sudo systemctl enable sddm &&
+sudo reboot

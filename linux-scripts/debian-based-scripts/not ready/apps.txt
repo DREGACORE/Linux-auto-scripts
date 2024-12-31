@@ -1,0 +1,67 @@
+sudo nala update ; sudo nala upgrade ;
+
+#Office and Productivity:
+		sudo nala install -y gnome-software okular thunderbird korganizer calligra zim pdfarranger playonlinux libreoffice ;
+
+#Task Management:
+		sudo nala install -y taskwarrior gnome-todo;
+		
+#Programming Languages and Frameworks:
+		sudo nala install -y python3-full rustc cargo python3-pip python3-venv python3-django python3-flask jupyter ;
+
+#Version Control and Development:
+		sudo nala install -y git git-cola build-essential;
+
+#Virtualization:
+		sudo nala install -y virtualbox lxc;
+		
+#Music and Video:
+		sudo nala install -y audacious mpv clementine rhythmbox audacity  smplayer kdenlive freecad gthumb;
+		sudo nala install -y blender vlc obs-studio ;
+
+#Graphics and Design:
+		sudo nala install -y krita openscad eog gimp;
+		
+#File Transfer:
+		sudo nala install -y filezilla ;
+		
+#Monitoring and System Tools:
+		sudo nala install -y lsb-release netdata glances iftop iotop btop htop logwatch ;
+		
+#File Management:
+		sudo nala install -y fileroller ranger tree ncdu ;
+		
+#Backup and Restore:
+		sudo nala install -y deja-dup timeshift duplicity borgbackup ;
+
+		
+#Networking Tools:
+		sudo nala install -y curl wireguard wget netcat-openbsd wireshark nmap openvpn;
+		
+#Security Tools:
+		sudo nala install -y clamav firewalld iptables gnupg;
+		
+#Chat and Collaboration:
+		sudo nala install -y slack syncthing;
+		
+
+#Package Management:
+		sudo nala install -y synaptic aptitude snapd;
+		
+#Scientific Computing:
+		sudo nala install -y scilab maxima octave;
+		
+		
+#Finance:
+		sudo nala install -y gnucash kmymoney homebank;
+		
+		
+#Utility Software:
+		sudo nala install -y tmux tilix screen;
+		sudo nala install -y terminator alacritty kitty guake;
+		sudo nala install -y geany;
+		sudo snap install pycharm-community --classic;
+		sudo snap install vscodium --classic;
+		sudo nala install -y --install-recommends --install-suggests vim neovim;
+		
+sudo snap install snap-store && sudo nala update ; sudo nala upgrade

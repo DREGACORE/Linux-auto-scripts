@@ -1,0 +1,115 @@
+Neuroimaging and Data Processing Tools
+FSL: Installation can be manual since it may not be in the repositories. Check the FSL website for instructions.
+SPM: Download from the SPM website.
+ANTs:
+sudo nala install ants
+NiPype:
+sudo nala install nipype
+MRIcron: Download from the MRIcron website.
+FreeSurfer: Follow installation instructions on the FreeSurfer website.
+BrainSuite: Download from the BrainSuite website.
+Connectome Workbench: Visit the Connectome Workbench website.
+FSLeyes:
+sudo nala install fsleyes
+Python:
+sudo nala install python3 python3-pip
+Jupyter Notebook:
+sudo nala install jupyter
+Data Visualization
+Matplotlib:
+pip install matplotlib
+Seaborn:
+pip install seaborn
+Mayavi: This may require additional dependencies:
+sudo nala install python3-mayavi python3-numpy python3-scipy
+Machine Learning & AI
+TensorFlow:
+pip install tensorflow
+PyTorch: Follow the installation instructions on the PyTorch website.
+scikit-learn:
+pip install scikit-learn
+Mathematics and Statistics
+R:
+sudo nala install r-base
+GNU Octave:
+sudo nala install octave
+SciPy:
+pip install scipy
+Physics and Chemistry
+Gnuplot:
+sudo nala install gnuplot
+OpenFOAM: Installation can be complex. Follow the instructions on the OpenFOAM website.
+LAMMPS: Check the LAMMPS website for installation instructions.
+Data Analysis and Visualization
+Pandas:
+pip install pandas   ```
+Plotly:
+pip install plotly
+Bioinformatics
+Bioconductor: Used within R. After installing R, run:
+sudo nala install r-base
+R -e "install.packages('BiocManager')"
+R -e "BiocManager::install('Biobase')"
+Galaxy: Follow the installation instructions at the Galaxy website.
+System and Network Monitoring
+Nagios: Follow installation instructions from the Nagios website.
+OpenVAS:
+sudo nala install openvas
+Other General Scientific Applications
+Gnumeric:
+sudo nala install gnumeric
+LibreOffice:
+sudo nala install libreoffice
+Information Gathering Tools
+theHarvester:
+sudo nala install theharvester
+dnsrecon:
+sudo nala install dnsrecon
+socat:
+sudo nala install socat
+Vulnerability Analysis Tools
+w3af: Follow installation instructions on the w3af website.
+sqlmap:
+sudo nala install sqlmap
+Web Application Analysis Tools
+skipfish: You may need to build from source; check the skipfish GitHub page.
+Exploitation Tools
+set:
+sudo nala install set
+beef: Follow installation instructions on the BeEF website.
+Password Attack Tools
+hydra:
+sudo nala install hydra
+crackmapexec: Installation can be done through pip:
+pip install crackmapexec
+medusa:
+sudo nala install medusa
+Wireless Security Tools
+wifite:
+sudo nala install wifite
+reaver:
+sudo nala install reaver
+Forensic Tools
+x1search: Check the x1search website.
+foremost:
+sudo nala install foremost
+Reverse Engineering Tools
+cutter: Check the Cutter website for installation instructions.
+System Security Tools
+tiger:
+sudo nala install tiger
+Incident Response Tools
+MISP-related tools: Installation can vary; refer to MISP's GitHub page.
+Networking Tools
+iptables:
+sudo nala install iptables
+netdiscover:
+sudo nala install netdiscover
+Development Tools
+ruby:
+sudo nala install ruby
+Miscellaneous
+docker:
+sudo nala install docker
+virtualbox: Installation can be complex; follow the VirtualBox website for instructions.
+Make sure to consult the official documentation for each tool for any specific requirements or additional dependencies that may need to be installed.
